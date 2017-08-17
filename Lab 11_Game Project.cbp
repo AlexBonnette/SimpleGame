@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lab 11_Game Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Lab 11_Game Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../Lab 10/allegro-5.0.10-mingw-4.7.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Users/Scoper&apos;sBane/Documents/College Schoolwork/2016-2017/Spring 2017 (Semester 6)/Data Structures &amp; Objects (CSIS 3700)/Labs/Lab 10/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Lab 11_Game Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Users/Scoper&apos;sBane/Documents/College Schoolwork/2016-2017/Spring 2017 (Semester 6)/Data Structures &amp; Objects (CSIS 3700)/Labs/Lab 10/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="collision.cpp" />
+		<Unit filename="collision.h" />
+		<Unit filename="image_library.cpp" />
+		<Unit filename="image_library.h" />
+		<Unit filename="image_sequence.cpp" />
+		<Unit filename="image_sequence.h" />
+		<Unit filename="keyboard_manager.cpp" />
+		<Unit filename="keyboard_manager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="obstruction_sprite.cpp" />
+		<Unit filename="obstruction_sprite.h" />
+		<Unit filename="phys_sprite.cpp" />
+		<Unit filename="phys_sprite.h" />
+		<Unit filename="player_sprite.cpp" />
+		<Unit filename="player_sprite.h" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="rectangle.h" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.h" />
+		<Unit filename="vec2d.cpp" />
+		<Unit filename="vec2d.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
